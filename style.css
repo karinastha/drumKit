@@ -63,3 +63,22 @@ h1 {
 .set {
     margin: 10% auto;
 }
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.red {
+    color: red;
+}
+
+@media(max-width:1000px) {
+    .drum {
+        width: 350px;
+        height: 200px;
+        text-align: center;
+        margin: 10px 10px 10px 323px;
+        display: block;
+    }
+}
